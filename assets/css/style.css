@@ -63,11 +63,39 @@
     -o-box-shadow: none;
     box-shadow: none;
 }
+
+.social-div{
+	border-radius: 50%;	
+	border: 3px solid white;
+	color: white;
+}
+
+.social-div:hover{
+	border-radius: 50%;	
+	border: 3px solid white;
+	color: #8c43ff;
+	background-color: white;
+}
+
+.btn-purple{
+	background-color: #8c43ff ;
+	color: white;
+}
+
+.btn-purple:hover{
+	background-color: purple;
+	color: white;
+}
+
+
 /*end of gallery.html*/
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-  
+  .border-round{
+	border-radius: 1%;
+}
+
  }
 
 /* Tablet Styles */
