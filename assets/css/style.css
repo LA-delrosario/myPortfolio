@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Play', sans-serif;
+	color: #656565;
 }
 
 .header-logo{
@@ -36,7 +37,7 @@
 }
 
 .border-round{
-	border-radius: 3%;
+	border-radius: 2%;
 }
 
 .middle{
@@ -50,6 +51,17 @@
 
 .button-purple{
 	border: 2px solid #8c43ff;
+}
+
+.border-purple{
+	border: 2px solid #8c43ff;
+}
+
+.modal-content{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
 }
 /*end of gallery.html*/
 
